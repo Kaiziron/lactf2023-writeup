@@ -1,6 +1,6 @@
 # LA CTF 2023 writeup
 
-Writeup for solved ethereum challenges in LA CTF 2023
+Writeups for solved ethereum challenges in LA CTF 2023
 
 | Solved ethereum challenges :                  |
 |-----------------------------------------------|
