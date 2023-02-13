@@ -1,5 +1,7 @@
 # EVMVM [7 solves] [497 points] [First Blood 🩸]
 
+![](https://i.imgur.com/NcyUsg2.png)
+
 ### Description
 ```
 All these zoomers with their "metaverse" or something are thinking far too primitive. If the red pill goes down the rabbit hole, then how far up can we go?
@@ -518,5 +520,3 @@ Then just hardcode the setup contract address, deploy it and call `exploit()`
 ```
 lactf{yul_hav3_a_bad_t1me_0n_th3_m3tam3tavers3}
 ```
-
-![](https://i.imgur.com/NcyUsg2.png)
