@@ -127,7 +127,7 @@ contract Friend is ERC721Enumerable, Ownable {
 }
 ```
 
-`Setup.sol` will deploy the `Friend.sol` and the `SomebodyYouUsedToKnow` contract, and the SomebodyYouUsedToKnow will mint a friend NFT which has the name of "You"
+`Setup.sol` will deploy the `Friend.sol` and the `SomebodyYouUsedToKnow` contract, and the `SomebodyYouUsedToKnow` contract will mint a friend NFT which has the name of "You"
 
 There is a burn function in `Friend.sol` :
 ```solidity
@@ -137,7 +137,7 @@ There is a burn function in `Friend.sol` :
     }
 ```
 
-It has no access control that check `msg.sender` is the owner of the NFT, allowing anyone to call `burn()` to burn anyone's NFT and delect the friend name for the NFT
+It has no access control that check `msg.sender` is the owner of the NFT, allowing anyone to call `burn()` to burn anyone's NFT and delete the friend name for the NFT
 
 So just call `burn(1)`, as the NFT owned by `SomebodyYouUsedToKnow` contract has the ID of 1
 
